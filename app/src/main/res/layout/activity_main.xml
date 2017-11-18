@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.flukepc.bmi_calculater.Calcu_Activity">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:text="G-BIKES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+          android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+        android:textSize="20dp"
+          android:layout_marginRight="20dp"
+          android:text="Height"
+          android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <EditText
+                android:inputType="number"
+                 android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                    android:id="@+id/edt_height"
+                  android:layout_width="300dp"
+                   android:layout_height="wrap_content" />
+            <TextView
+                android:text="Cm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:text="Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/edt_weight"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="ACCEPT"
+            android:background="@color/colorAccent"
+            android:id="@+id/btn_koddi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/fuckingWhite"
+            android:text="CLEAR"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
